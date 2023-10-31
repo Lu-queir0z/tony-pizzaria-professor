@@ -44,4 +44,18 @@
     padding-left: 80px;
     padding-right: 80px;
 }
+/*tablet*/
+@media (max-width:768px) {
+    .home{
+        background-image: url(../img/background-tablet.png);
+        background-position: top;
+    }
+    .conteudo-container{
+        flex-direction: column-reverse;
+        
+    }
+    .destaque-container{
+        display: none;
+    }
 
+}
